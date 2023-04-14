@@ -1,0 +1,23 @@
+body{
+    background-image: url(../img/fundo.png);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+#header{
+    margin: auto;
+    margin-top: 100px;
+    background-color: gray;
+}
+
+#header .logo{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    
+}
