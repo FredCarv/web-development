@@ -1,0 +1,97 @@
+body{
+    background-color: #ccc;
+    font-family: arial, verdana;
+    font-size: 15px;
+    color: #fff;
+}
+
+#container{
+    border: 1px solid #666;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #333;
+    padding: 20px;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 90px;
+}
+
+.imagA{
+    background-image: url(../img/imagens.png);
+}
+
+.logo{
+    width: 230px;
+    height: 74px;
+    background-position: -14px -18px;
+    float: left;
+}
+
+#menu{
+    float: right;
+    width: 330px;
+    margin-top: 14px;
+}
+
+#menu ul li{
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+}
+
+#menu ul li:hover{
+    background-color: yellow;
+    border-radius: 10px
+}
+
+#menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#banner{
+    background-color: #eee;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.conteudo{
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+
+.imgBanner{
+    background-image: url(../img/bannerCelular.jpg);
+    width: 301px;
+    height: 216px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 60px;
+}
+
+#banner h1{
+    font-size: 90px;
+    color: #e3ac0b;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#banner h3{
+    font-size: 28px;
+    color: #999;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+#banner p{
+    color: #958a75;
+    font-size: 17px;
+    margin-top: 13px;
+    margin-bottom: 60px;
+}
