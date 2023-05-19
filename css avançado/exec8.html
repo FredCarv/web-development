@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor de filho</title>
+    <style>
+       a::before{
+        content: '{';
+       }
+       a::after{
+        content: '}';
+       }
+       ol{
+        list-style: none;
+        counter-reset: contador;
+       }
+       li::before{
+        content: "link" counter(contador) "-";
+        counter-increment: contador;
+       }
+
+       .email::before{
+        content: "Meu email é: ";
+       }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-elementos</h1>
+    <a href="">Link 1</a>
+    <a href="">Link 2</a>
+    <a href="">Link 3</a>
+    <a href="">Link 4</a> 
+
+    <hr>
+    <ul>
+        <li class="email">asdasda@gmail.com</li>
+    </ul>
+    
+    <hr>
+    <ol>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+    </ol>
+</body>
+</html>
