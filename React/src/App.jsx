@@ -1,3 +1,4 @@
+import './App.css'
 import Header from "./components/header/header"
 import Banner from "./components/banner/banner"
 import Mortes from "./components/mortes/mortes"

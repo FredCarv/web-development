@@ -1,3 +1,4 @@
+import './mortes.css'
 export default function Mortes(){
 
     return(

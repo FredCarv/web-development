@@ -1,0 +1,23 @@
+.temporada{
+    background-image: url(./img/The-Walking-Dead-1-Temporada.jpg);
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.temporada h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.temporada p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+

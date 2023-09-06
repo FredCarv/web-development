@@ -1,3 +1,4 @@
+import './epidemia.css'
 export default function Epidemia(){
 
     return(
