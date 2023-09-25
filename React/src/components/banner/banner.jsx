@@ -1,4 +1,5 @@
 import './banner.css'
+
 export default function banner (){
 
     let cor_laranja = {
